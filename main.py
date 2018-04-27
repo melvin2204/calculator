@@ -59,7 +59,7 @@ class calculator(QtGui.QMainWindow, ui.Ui_MainWindow):
         self.calculationType = type
 
     def calculate(self):
-        if len(self.secondValue) == 0:
+        if len(self.secondValue) == 0 or len(self.firstValue) == 0:
             return
         firstValue = float(self.firstValue)
         calcationType = self.calculationType
