@@ -73,7 +73,10 @@ class calculator(QtGui.QMainWindow, ui.Ui_MainWindow):
         elif calcationType == "+":
             result = secondValue + firstValue
         elif calcationType == "/":
-            result = secondValue / firstValue
+            if firstValue == 0.0:
+                result = 0.0
+            else:
+                result = secondValue / firstValue
         elif calcationType == "*":
             result = secondValue * firstValue
         if int(str(result).split(".")[1]) == 0:#comma is zero
