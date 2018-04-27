@@ -10,26 +10,26 @@
     <x>0</x>
     <y>0</y>
     <width>400</width>
-    <height>500</height>
+    <height>475</height>
    </rect>
   </property>
   <property name="minimumSize">
    <size>
     <width>400</width>
-    <height>500</height>
+    <height>475</height>
    </size>
   </property>
   <property name="maximumSize">
    <size>
     <width>400</width>
-    <height>500</height>
+    <height>475</height>
    </size>
   </property>
   <property name="windowTitle">
    <string>Python Calculator</string>
   </property>
   <widget class="QWidget" name="centralwidget">
-   <layout class="QVBoxLayout" name="verticalLayout">
+   <layout class="QVBoxLayout" name="verticalLayout_2">
     <item>
      <widget class="QLCDNumber" name="displayLCD">
       <property name="font">
@@ -65,11 +65,11 @@
       <item>
        <layout class="QVBoxLayout" name="numpadL">
         <item>
-         <widget class="QPushButton" name="pushButton">
+         <widget class="QPushButton" name="b9">
           <property name="minimumSize">
            <size>
-            <width>100</width>
-            <height>100</height>
+            <width>75</width>
+            <height>75</height>
            </size>
           </property>
           <property name="font">
@@ -84,11 +84,11 @@
          </widget>
         </item>
         <item>
-         <widget class="QPushButton" name="pushButton_2">
+         <widget class="QPushButton" name="b4">
           <property name="minimumSize">
            <size>
-            <width>100</width>
-            <height>100</height>
+            <width>75</width>
+            <height>75</height>
            </size>
           </property>
           <property name="font">
@@ -103,11 +103,11 @@
          </widget>
         </item>
         <item>
-         <widget class="QPushButton" name="pushButton_3">
+         <widget class="QPushButton" name="b1">
           <property name="minimumSize">
            <size>
-            <width>100</width>
-            <height>100</height>
+            <width>75</width>
+            <height>75</height>
            </size>
           </property>
           <property name="font">
@@ -122,11 +122,11 @@
          </widget>
         </item>
         <item>
-         <widget class="QPushButton" name="pushButton_10">
+         <widget class="QPushButton" name="bplusmin">
           <property name="minimumSize">
            <size>
-            <width>100</width>
-            <height>100</height>
+            <width>75</width>
+            <height>75</height>
            </size>
           </property>
           <property name="font">
@@ -145,11 +145,11 @@
       <item>
        <layout class="QVBoxLayout" name="numpadM">
         <item>
-         <widget class="QPushButton" name="pushButton_5">
+         <widget class="QPushButton" name="b8">
           <property name="minimumSize">
            <size>
-            <width>100</width>
-            <height>100</height>
+            <width>75</width>
+            <height>75</height>
            </size>
           </property>
           <property name="font">
@@ -164,11 +164,11 @@
          </widget>
         </item>
         <item>
-         <widget class="QPushButton" name="pushButton_4">
+         <widget class="QPushButton" name="b5">
           <property name="minimumSize">
            <size>
-            <width>100</width>
-            <height>100</height>
+            <width>75</width>
+            <height>75</height>
            </size>
           </property>
           <property name="font">
@@ -183,11 +183,11 @@
          </widget>
         </item>
         <item>
-         <widget class="QPushButton" name="pushButton_6">
+         <widget class="QPushButton" name="b2">
           <property name="minimumSize">
            <size>
-            <width>100</width>
-            <height>100</height>
+            <width>75</width>
+            <height>75</height>
            </size>
           </property>
           <property name="font">
@@ -202,11 +202,11 @@
          </widget>
         </item>
         <item>
-         <widget class="QPushButton" name="pushButton_11">
+         <widget class="QPushButton" name="b0">
           <property name="minimumSize">
            <size>
-            <width>100</width>
-            <height>100</height>
+            <width>75</width>
+            <height>75</height>
            </size>
           </property>
           <property name="font">
@@ -225,11 +225,11 @@
       <item>
        <layout class="QVBoxLayout" name="numpadR">
         <item>
-         <widget class="QPushButton" name="pushButton_8">
+         <widget class="QPushButton" name="b7">
           <property name="minimumSize">
            <size>
-            <width>100</width>
-            <height>100</height>
+            <width>75</width>
+            <height>75</height>
            </size>
           </property>
           <property name="font">
@@ -244,17 +244,18 @@
          </widget>
         </item>
         <item>
-         <widget class="QPushButton" name="pushButton_9">
+         <widget class="QPushButton" name="b6">
           <property name="minimumSize">
            <size>
-            <width>100</width>
-            <height>100</height>
+            <width>75</width>
+            <height>75</height>
            </size>
           </property>
           <property name="font">
            <font>
             <family>Arial</family>
             <pointsize>50</pointsize>
+            <kerning>true</kerning>
            </font>
           </property>
           <property name="text">
@@ -263,11 +264,11 @@
          </widget>
         </item>
         <item>
-         <widget class="QPushButton" name="pushButton_7">
+         <widget class="QPushButton" name="b3">
           <property name="minimumSize">
            <size>
-            <width>100</width>
-            <height>100</height>
+            <width>75</width>
+            <height>75</height>
            </size>
           </property>
           <property name="font">
@@ -282,11 +283,11 @@
          </widget>
         </item>
         <item>
-         <widget class="QPushButton" name="pushButton_12">
+         <widget class="QPushButton" name="bcomma">
           <property name="minimumSize">
            <size>
-            <width>100</width>
-            <height>100</height>
+            <width>75</width>
+            <height>75</height>
            </size>
           </property>
           <property name="font">
@@ -301,6 +302,147 @@
          </widget>
         </item>
        </layout>
+      </item>
+      <item>
+       <layout class="QVBoxLayout" name="verticalLayout">
+        <item>
+         <widget class="QPushButton" name="pushButton">
+          <property name="minimumSize">
+           <size>
+            <width>75</width>
+            <height>75</height>
+           </size>
+          </property>
+          <property name="font">
+           <font>
+            <family>Arial</family>
+            <pointsize>50</pointsize>
+           </font>
+          </property>
+          <property name="text">
+           <string>+</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QPushButton" name="pushButton_3">
+          <property name="minimumSize">
+           <size>
+            <width>75</width>
+            <height>75</height>
+           </size>
+          </property>
+          <property name="font">
+           <font>
+            <family>Arial</family>
+            <pointsize>50</pointsize>
+           </font>
+          </property>
+          <property name="text">
+           <string>-</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QPushButton" name="pushButton_4">
+          <property name="minimumSize">
+           <size>
+            <width>75</width>
+            <height>75</height>
+           </size>
+          </property>
+          <property name="font">
+           <font>
+            <family>Arial</family>
+            <pointsize>50</pointsize>
+           </font>
+          </property>
+          <property name="text">
+           <string>*</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QPushButton" name="pushButton_2">
+          <property name="minimumSize">
+           <size>
+            <width>75</width>
+            <height>75</height>
+           </size>
+          </property>
+          <property name="font">
+           <font>
+            <family>Arial</family>
+            <pointsize>50</pointsize>
+           </font>
+          </property>
+          <property name="text">
+           <string>/</string>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </item>
+     </layout>
+    </item>
+    <item>
+     <layout class="QHBoxLayout" name="horizontalLayout_2">
+      <item>
+       <widget class="QPushButton" name="ac">
+        <property name="minimumSize">
+         <size>
+          <width>0</width>
+          <height>50</height>
+         </size>
+        </property>
+        <property name="font">
+         <font>
+          <family>Arial</family>
+          <pointsize>25</pointsize>
+         </font>
+        </property>
+        <property name="text">
+         <string>AC</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="back">
+        <property name="minimumSize">
+         <size>
+          <width>0</width>
+          <height>50</height>
+         </size>
+        </property>
+        <property name="font">
+         <font>
+          <family>Arial</family>
+          <pointsize>25</pointsize>
+         </font>
+        </property>
+        <property name="text">
+         <string>&lt;-</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="calculateButton">
+        <property name="minimumSize">
+         <size>
+          <width>0</width>
+          <height>50</height>
+         </size>
+        </property>
+        <property name="font">
+         <font>
+          <family>Arial</family>
+          <pointsize>25</pointsize>
+         </font>
+        </property>
+        <property name="text">
+         <string>=</string>
+        </property>
+       </widget>
       </item>
      </layout>
     </item>
