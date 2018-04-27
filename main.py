@@ -20,9 +20,9 @@ class calculator(QtGui.QMainWindow, ui.Ui_MainWindow):
         self.b9.clicked.connect(lambda: self.addNum(9))
         self.b0.clicked.connect(lambda: self.addNum(0))
         #remove num
-        self.back.clicked.connect(lambda: self.removeNum())
+        self.back.clicked.connect(self.removeNum)
         #clear
-        self.ac.clicked.connect(lambda: self.clear())
+        self.ac.clicked.connect(self.clear)
         #calculate
         self.calculateB.clicked.connect(self.calculate)
         #comma
