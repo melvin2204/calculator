@@ -20,9 +20,9 @@ class calculator(QtGui.QMainWindow, ui.Ui_MainWindow):
         self.b9.clicked.connect(lambda: self.addNum(9))
         self.b0.clicked.connect(lambda: self.addNum(0))
         #remove num
-        self.back.clicked.connect(self.removeNum)
+        self.back.clicked.connect(lambda: self.removeNum())
         #clear
-        self.ac.clicked.connect(self.clear)
+        self.ac.clicked.connect(lambda: self.clear())
         #calculate
         self.calculateB.clicked.connect(self.calculate)
         #comma
@@ -52,9 +52,8 @@ class calculator(QtGui.QMainWindow, ui.Ui_MainWindow):
 
     def edit(self,type):
         if len(self.firstValue) == 0:
-            self.secondValue = "0"
-        else:
-            self.secondValue = self.firstValue
+            self.ans()
+        self.secondValue = self.firstValue
         self.firstValue = ""
         self.calculationType = type
 
